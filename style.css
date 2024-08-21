@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: rgba(196, 178, 196, 0.712);
+}
+
+.nav {
+  height: 100px;
+  background-color: lightblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logo {
+  width: 350px;
+  margin: 10px 0 10px 20px;
+  padding: 10px;
+}
+
+.link {
+  width: 400px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+a {
+  color: black;
+  font-family: "New Amsterdam";
+  font-weight: 400;
+}
+
+#main {
+  height: 649px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+  font-family: "New Amsterdam";
+  font-weight: 500;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.content {
+  height: 250px;
+  width: 600px;
+  padding: 50px;
+}
+
+.heading {
+  margin-bottom: 30px;
+}
+
+.brief {
+  margin-bottom: 30px;
+}
+
+.btn {
+  width: 150px;
+  height: 50px;
+  font-family: "New Amsterdam";
+  font-size: 30px;
+  background-color: rgb(87, 209, 193);
+  color: whitesmoke;
+  border: none;
+}
+
+/* About */
+#About {
+  height: 700px;
+  width: 100%;
+  font-size: 30px;
+  background-color: rgb(245, 245, 199);
+}
+#abouth {
+  font-family: "New Amsterdam";
+  font-weight: 400;
+  text-align: center;
+  padding: 20px 0 60px 0;
+}
+.container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 30px 0 30px;
+}
+
+.aboutp {
+  font-family: "New Amsterdam";
+  margin-bottom: 30px;
+}
+
+.aboutimg {
+  margin-left: 30px;
+}
+
+/* Discord */
+#Discord {
+  height: 650px;
+  width: 100%;
+  font-size: 30px;
+  background-color: rgb(191, 255, 252);
+}
+
+.discordh {
+  font-family: "New Amsterdam";
+  font-weight: 400;
+  padding: 20px 0 60px 0;
+  text-align: center;
+}
+
+.container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 30px 0 30px;
+}
+
+.discordbrief {
+  margin-left: 70px;
+}
+
+.discordp {
+  font-family: "New Amsterdam";
+  margin-bottom: 30px;
+}
+
+/* Contact */
+#Contact {
+  height: 600px;
+  width: 100%;
+  font-size: 30px;
+  background-color: rgb(206, 193, 206);
+}
+
+#contacth {
+  font-family: "New Amsterdam";
+  font-weight: 400;
+  text-align: center;
+  padding: 40px 0 50px 0;
+}
+
+.container3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.emailL {
+  margin-top: 20px;
+  font-size: x-large;
+  font-family: "New Amsterdam";
+  font-size: 20px;
+}
+
+#Email {
+  width: 450px;
+  height: 40px;
+  margin-bottom: 20px;
+  font-size: 25px;
+  padding-left: 10px;
+}
+
+.msgL {
+  font-size: x-large;
+  font-family: "New Amsterdam";
+  font-size: 20px;
+}
+
+.btn {
+  margin-top: 40px;
+  width: 450px;
+}
+#btnsub {
+  background-color: rgb(49, 176, 235);
+  border: none;
+  height: 50px;
+  width: 450px;
+  color: whitesmoke;
+  font-size: 25px;
+  font-family: "New Amsterdam";
+  font-style: italic;
+}
+
+/* Footer */
+.foot {
+  height: 200px;
+  width: 100%;
+  background-color: lightblue;
+  text-align: center;
+}
+
+.fotimg {
+  margin-top: 20px;
+}
+
+.foorerdiv {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.foorerdiv a {
+  font-family: "New Amsterdam";
+  margin-right: 30px;
+}
+
+#copy {
+  font-size: 20px;
+  font-family: "New Amsterdam";
+}
