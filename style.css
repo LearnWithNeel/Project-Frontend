@@ -80,6 +80,22 @@ a {
   border: none;
 }
 
+#laptoppng{
+  height: 400px;
+  overflow: hidden;
+  border-radius: 16px;
+}
+
+#laptoppng #lapimg{
+  object-fit:cover;
+  transition: 0.8s;
+  height: 100%;
+}
+
+#laptoppng:hover #lapimg{
+  transform: scale(0.9);
+}
+
 
 /* About */
 #About {
