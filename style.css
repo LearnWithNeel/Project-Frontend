@@ -41,6 +41,8 @@ a {
   font-weight: 400;
 }
 
+/* Home Page */
+
 #main {
   height: 649px;
   width: 100%;
@@ -77,6 +79,7 @@ a {
   color: whitesmoke;
   border: none;
 }
+
 
 /* About */
 #About {
